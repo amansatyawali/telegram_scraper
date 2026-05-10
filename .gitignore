@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+
+# Ignore session files
+*.session
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Ignore all CSV files
+*.csv
+
+# Ignore all media files
+*.mp4
+*.mp3
+*.jpg
+*.png
+*.aac
+
+# Ignore TAR files
+*.tar
+*.tar.gz
+*.tgz
+
+# Ignore ubyte files
+*.ubyte
+
+# Ignore key.json files
+key.json
+
+# Ignore everything inside any folder named "data"
+data/**
