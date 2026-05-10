@@ -8,7 +8,7 @@ from config import app_config, paths
 API_ID   = app_config["app_api_id"]
 API_HASH = app_config["app_api_hash"]
 OUTPUT_PATH = paths["raw_data"]
-CHAT_NAME = "5. Jonney premium"
+CHAT_NAME = ""
 MEDIA_DIR = "data"
 START_MESSAGE_ID = 41752
 END_MESSAGE_ID = 0
