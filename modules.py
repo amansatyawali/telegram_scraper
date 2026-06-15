@@ -33,7 +33,7 @@ def resumable_download(client, media, file_ext, output_path):
     if os.path.exists(output_path + file_ext):
         downloaded_bytes = os.path.getsize(output_path + file_ext)
 
-    print(f"Resuming from {downloaded_bytes} bytes")
+    print(f"Resuming from {downloaded_bytes / (1024 * 1024):.2f} MB")
 
     with open(output_path + file_ext, "ab") as f:
 
